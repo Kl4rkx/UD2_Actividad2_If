@@ -13,6 +13,7 @@ public class ejer13 {
 		// Creación de programa
 		// Se pide el primer número
 		System.out.println("Introduce el primer número: ");
+		
 		// Se recoge el valor de la variable num1
 		num1 = input.nextDouble();
 
