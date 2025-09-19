@@ -21,16 +21,16 @@ public class ejer13 {
 			// Se imprime la respuesta
             System.out.println("Suspenso");
          // Se verifica si la nota es menor que 6 y mayor o igual a 5
-        } else if (num1 >=5 && num1 < 6) {
+        } else if (num1 < 6) {
         	System.out.println("Suficiente");
          // Se verifica si la nota es menor que 7 y mayor o igual a 6
-        } else if (num1 >=6 && num1 < 7) {
+        } else if (num1 < 7) {
         	System.out.println("Bien");
          // Se verifica si la nota es menor que 9 y mayor o igual a 7
-        } else if (num1 >=7 && num1 < 9) {
+        } else if (num1 < 9) {
         	System.out.println("Muy bien");
          // Se verifica si la nota es menor o igual que 10 y mayor o igual a 9
-        } else if (num1 >=9 && num1 <= 10) {
+        } else if (num1 <= 10) {
         	System.out.println("Sobresaliente");
          // Si no cumple ninguna condición
         } else {
